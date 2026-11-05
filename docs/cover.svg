@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="290" viewBox="0 0 1200 290">
+<rect width="1200" height="290" rx="18" fill="#111c30"/>
+<rect x="0" y="0" width="10" height="290" fill="#ecc277"/>
+<circle cx="1130" cy="240" r="155" fill="#ecc277" opacity=".13"/>
+<circle cx="1130" cy="240" r="110" fill="none" stroke="#ecc277" stroke-width="2" opacity=".5"/>
+<g font-family="Arial, Apple SD Gothic Neo, Malgun Gothic, sans-serif"><text x="55" y="63" fill="#ecc277" font-size="19" letter-spacing="3">JECHEON / WALKING ACCESS</text>
+<text x="55" y="139" fill="#ffffff" font-size="37" font-weight="700">제천 · 주민과 고령층의 이동 부담</text>
+<text x="55" y="195" fill="#bdcbe0" font-size="21">보행도로망으로 수거망을 진단하고 편의점·경로당 보완 입지를 비교</text>
+<text x="55" y="251" fill="#7d94b5" font-size="15">RESEARCH QUESTION / ANALYSIS CODE / REPORT / RESULTS</text></g></svg>

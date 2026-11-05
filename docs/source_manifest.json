@@ -1,0 +1,176 @@
+{
+  "created_on": "2026-10-22",
+  "datasets": [
+    {
+      "name": "경로당 현황",
+      "provider": "제천시",
+      "reference_date": "2025-11-26",
+      "url": "https://www.data.go.kr/data/15013784/fileData.do",
+      "usage": "342건 → 341개 좌표"
+    },
+    {
+      "name": "상가(상권)정보",
+      "provider": "소상공인시장진흥공단",
+      "reference_date": "2026-06-30",
+      "url": "https://www.data.go.kr/data/15083033/fileData.do",
+      "usage": "편의점 업종 147건 → 138개 좌표"
+    },
+    {
+      "name": "폐의약품 수거함 위치 및 배출방법 안내",
+      "provider": "제천시 보건소",
+      "reference_date": "2025-08-28",
+      "url": "https://www.jecheon.go.kr/health/selectBbsNttView.do?key=944&bbsNo=170&nttNo=386840",
+      "usage": "수거망 73곳·제외 약국 4곳"
+    },
+    {
+      "name": "약국 명부",
+      "provider": "제천시 보건소",
+      "reference_date": "2026-10-22 조회",
+      "url": "https://www.jecheon.go.kr/health/selectBbsNttList.do?bbsNo=409&key=889",
+      "usage": "57곳에서 제외 명단 4곳 적용"
+    },
+    {
+      "name": "보건지소 및 진료소",
+      "provider": "제천시 보건소",
+      "reference_date": "2026-10-22 조회",
+      "url": "https://www.jecheon.go.kr/health/contents.do?key=872",
+      "usage": "19곳 및 보건소 1곳"
+    },
+    {
+      "name": "전국 병의원 및 약국 현황",
+      "provider": "건강보험심사평가원",
+      "reference_date": "2026-09-30",
+      "url": "https://www.data.go.kr/data/15051059/fileData.do",
+      "usage": "73곳 좌표 연결·주소 불일치 3곳"
+    },
+    {
+      "name": "보행도로와 시 경계",
+      "provider": "OpenStreetMap",
+      "reference_date": "2026-10-22 추출",
+      "url": "https://www.openstreetmap.org/copyright",
+      "usage": "ODbL / 주변 도로 포함. 주민 분석의 행정경계는 SGIS 공식 경계 사용."
+    },
+    {
+      "name": "인구·연령별 통계와 경계",
+      "provider": "SGIS",
+      "reference_date": "인구 2024년 · 경계 2025년 2분기 · 2026-10-23 확보",
+      "url": "https://sgis.mods.go.kr/view/pss/openDataIntrcn",
+      "usage": "제천시 17개 읍면동: 100m·500m 격자인구, 집계구 성·연령별 인구, 읍면동·집계구·격자 경계. 도로 연결과 주민 거리 최적화에 사용."
+    }
+  ],
+  "raw_files": [
+    {
+      "file": "data/raw/hira_jecheon_institutions_20260930.json",
+      "bytes": 263515,
+      "sha256": "dfd79c6a49efc8461dd67b567bacd52f804054d6418e00cc9f5efcdcac57e9b2"
+    },
+    {
+      "file": "data/raw/jecheon_roads_osm.metadata.json",
+      "bytes": 747,
+      "sha256": "448c51bc1bcc687c50d5ed5b8464841892835549b931b22beea3009789c70989"
+    },
+    {
+      "file": "data/raw/hira_national_20260930.zip",
+      "bytes": 20609715,
+      "sha256": "ceff684b8eb1dc9059b668ec56bc91d2a643997420733b2996a0bc5d8910f9c3"
+    },
+    {
+      "file": "data/raw/jecheon_standard_bins_20261022.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "file": "data/raw/jecheon_pharmacy_businesses_20260630.json",
+      "bytes": 76411,
+      "sha256": "d842f67b3efaf01efeda70b7c18b4a2d92458bc357afa0433695f198cbf68373"
+    },
+    {
+      "file": "data/raw/jecheon_senior_centres_20251126.csv",
+      "bytes": 61625,
+      "sha256": "c1c6ca93024952cc171f18a5fe350e2f1ae260e6d2f4f1540a24e1932c9fa5c4"
+    },
+    {
+      "file": "data/raw/bins_columns.json",
+      "bytes": 5172,
+      "sha256": "ed03dc852338e7e49ed631ccf202a249acf14cdaaeb812cbea099fe7956dd748"
+    },
+    {
+      "file": "data/raw/official_pharmacies.json",
+      "bytes": 14940,
+      "sha256": "3593efb1515d6248f1cf88f77c3e06f45de31381773e0572cb8bd4be0e954345"
+    },
+    {
+      "file": "data/raw/jecheon_all_businesses_20260630.json",
+      "bytes": 12434401,
+      "sha256": "594c641a5512df9686f958fe938c43d9e462a2a4d41948f16c632367462443bd"
+    },
+    {
+      "file": "data/raw/jecheon_osm_boundary_search.json",
+      "bytes": 71656,
+      "sha256": "51e0b21bc1f049931a4e6bfc5391e6f3f450cfb841510f18a44af74841e3d210"
+    },
+    {
+      "file": "data/raw/jecheon_roads_osm.json",
+      "bytes": 35760991,
+      "sha256": "6b7336fe922621605260c43170a5a60038a9f5f7c8267ce1fe9f076241666e08"
+    },
+    {
+      "file": "data/raw/national_medicine_bins_20261022.json",
+      "bytes": 3234169,
+      "sha256": "eed8c2830346b7886bc8d828c61a41acaf46388561fdeee95db8577b571764a8"
+    },
+    {
+      "file": "data/raw/hira_download_metadata.json",
+      "bytes": 10978,
+      "sha256": "cdb25c74662a37906228242dffc4c4e60adfb7b9b8ac1205720d2bbd17f6a261"
+    },
+    {
+      "file": "data/raw/jecheon_convenience_20260630.json",
+      "bytes": 210819,
+      "sha256": "44ffd39df9b1760db42c54c3275da0a299d9fa81a2963d10559457426f817492"
+    },
+    {
+      "file": "data/raw/jecheon_health_standard.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "file": "data/raw/sgis_jecheon_population_2024.zip",
+      "bytes": 1992475,
+      "sha256": "b16598365b7ffd4d0f970a091dfabd30a434c8e3788adf3259c176aa574221d9"
+    },
+    {
+      "file": "data/raw/bnd_dong_33030_2025_2Q.zip",
+      "bytes": 220377,
+      "sha256": "d5b73226a427d6ff74e04ab254de27b4ac7751a471b0f76b0c77603b3e60fef8"
+    },
+    {
+      "file": "data/raw/bnd_oa_33030_2025_2Q.zip",
+      "bytes": 415123,
+      "sha256": "6e4a8dbc03e150d0dd70a8937212c5a3fa5dc6ffd2eeddb3010112440c1a6df8"
+    },
+    {
+      "file": "data/raw/grid_라바.zip",
+      "bytes": 20352512,
+      "sha256": "b1e8b02771cc2ee648eb3579a5c622975f6167f57360494d45372a586f2d585e"
+    },
+    {
+      "file": "data/raw/grid_라사.zip",
+      "bytes": 20351622,
+      "sha256": "00dbfaef193ac0bd61086abca0be3710e9d96474727c791bb077ec449f73159b"
+    }
+  ],
+  "environment": {
+    "numpy": "2.3.4",
+    "scipy": "1.16.3",
+    "pandas": "2.3.3",
+    "networkx": "3.6.1",
+    "pyproj": "3.7.2",
+    "shapely": "2.1.2",
+    "matplotlib": "3.10.7"
+  },
+  "population_optimization_executed": true,
+  "updated_on": "2026-10-23",
+  "resident_analysis_validation": "results/resident_analysis/validation.json",
+  "population_input_audit": "results/population_input_audit.json"
+}

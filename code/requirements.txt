@@ -1,0 +1,10 @@
+numpy
+pandas
+scipy
+geopandas
+shapely
+pyproj
+networkx
+requests
+matplotlib
+pillow

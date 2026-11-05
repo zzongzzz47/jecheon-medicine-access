@@ -1,0 +1,290 @@
+{
+  "title": "제천시 폐의약품 수거망 주민 보행거리와 보완 입지 분석",
+  "baseline": {
+    "residents": {
+      "population": 132709.0,
+      "mean_m": 1437.8972187114482,
+      "p90_m": 3980.3475510444623,
+      "within_distance_percent": {
+        "200": 4.827856437769857,
+        "350": 18.017617493915257,
+        "500": 31.48618405684618,
+        "1000": 65.66321801837103
+      }
+    },
+    "elderly_lower": {
+      "population": 32786.0,
+      "mean_m": 1267.73902163667,
+      "p90_m": 3527.0994153103475,
+      "within_distance_percent": {
+        "200": 3.9254559873116572,
+        "350": 18.703104983834564,
+        "500": 34.56658329774904,
+        "1000": 68.98066247788691
+      }
+    },
+    "elderly_upper": {
+      "population": 33572.0,
+      "mean_m": 1277.7380802872547,
+      "p90_m": 3593.071806386285,
+      "within_distance_percent": {
+        "200": 3.905039914214226,
+        "350": 18.566066960562374,
+        "500": 34.379840343143094,
+        "1000": 68.72691528654832
+      }
+    }
+  },
+  "ten_sites": [
+    {
+      "name": "편의점안",
+      "residents": {
+        "population": 132709.0,
+        "mean_m": 962.2438877599399,
+        "p90_m": 2355.306882253942,
+        "within_distance_percent": {
+          "200": 10.724969670482032,
+          "350": 32.06941503590563,
+          "500": 50.37488037736702,
+          "1000": 78.14767649518872
+        }
+      },
+      "elderly": {
+        "population": 32786.0,
+        "mean_m": 990.5933114909643,
+        "p90_m": 2541.436321879762,
+        "within_distance_percent": {
+          "200": 8.409077045080217,
+          "350": 29.29909107545904,
+          "500": 49.43573476483865,
+          "1000": 76.45641432318672
+        }
+      },
+      "selected_kinds": {
+        "convenience": 10
+      }
+    },
+    {
+      "name": "혼합 효율안",
+      "residents": {
+        "population": 132709.0,
+        "mean_m": 945.0117429212332,
+        "p90_m": 2227.878786344895,
+        "within_distance_percent": {
+          "200": 8.67461890301336,
+          "350": 26.229569961343994,
+          "500": 43.88850793842166,
+          "1000": 78.0143019689697
+        }
+      },
+      "elderly": {
+        "population": 32786.0,
+        "mean_m": 935.7597804180467,
+        "p90_m": 2250.424424010733,
+        "within_distance_percent": {
+          "200": 6.627828951381687,
+          "350": 24.263405111938024,
+          "500": 42.76215457817361,
+          "1000": 77.52394314646496
+        }
+      },
+      "selected_kinds": {
+        "senior_centre": 5,
+        "convenience": 5
+      }
+    },
+    {
+      "name": "고령층 우선 혼합안",
+      "residents": {
+        "population": 132709.0,
+        "mean_m": 963.6171009655536,
+        "p90_m": 2315.3635177539054,
+        "within_distance_percent": {
+          "200": 7.136667445312677,
+          "350": 25.72169182195631,
+          "500": 43.12669072934013,
+          "1000": 75.58567994634878
+        }
+      },
+      "elderly": {
+        "population": 32786.0,
+        "mean_m": 896.4673237999616,
+        "p90_m": 2172.528010733787,
+        "within_distance_percent": {
+          "200": 7.18599402183859,
+          "350": 25.276032452876226,
+          "500": 44.241444519002016,
+          "1000": 77.66729701701946
+        }
+      },
+      "selected_kinds": {
+        "senior_centre": 8,
+        "convenience": 2
+      }
+    }
+  ],
+  "straight_comparison": [
+    {
+      "candidate_group": "convenience",
+      "solver": {
+        "selected_indices": [
+          16,
+          26,
+          40,
+          54,
+          58,
+          60,
+          62,
+          75,
+          105,
+          107
+        ],
+        "population_distance_reduction_person_m": 52373498.708838716,
+        "elderly_distance_reduction_person_m": 0.0,
+        "population_weighted_mean_m": 625.0238507327826,
+        "elderly_weighted_mean_m": null,
+        "optimal": true,
+        "solver_status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "mip_gap": 0.0
+      },
+      "straight_selected_ids": [
+        "CV_MA010120220805720486",
+        "CV_MA010120220809603383",
+        "CV_MA010120220813301863",
+        "CV_MA010120220805109112",
+        "CV_MA010120220808016248",
+        "CV_MA010120220810332614",
+        "CV_MA010120220805721744",
+        "CV_MA010120220810056489",
+        "CV_MA0101202411A0124266",
+        "CV_MA0101202501A0035829"
+      ],
+      "road_selected_ids": [
+        "CV_MA010120220813301863",
+        "CV_MA010120220805109112",
+        "CV_MA010120220808016248",
+        "CV_MA010120220810332614",
+        "CV_MA010120220805721744",
+        "CV_MA0101202307A0054349",
+        "CV_MA0101202411A0124266",
+        "CV_MA0101202411A0093680",
+        "CV_MA0101202502A0064235",
+        "CV_MA0101202604A0036384"
+      ],
+      "common_selected": 6,
+      "actual_road_evaluation": {
+        "before": {
+          "population": 132709.0,
+          "mean_m": 1437.8972187114482,
+          "p90_m": 3980.3475510444623,
+          "within_distance_percent": {
+            "200": 4.827856437769857,
+            "350": 18.017617493915257,
+            "500": 31.48618405684618,
+            "1000": 65.66321801837103
+          }
+        },
+        "after": {
+          "population": 132709.0,
+          "mean_m": 973.7345755269781,
+          "p90_m": 2421.872198058364,
+          "within_distance_percent": {
+            "200": 10.489115282309413,
+            "350": 30.75526151203008,
+            "500": 50.00037676419836,
+            "1000": 78.21021935211628
+          }
+        }
+      },
+      "road_optimum_mean_m": 962.2438877599399,
+      "advantage_of_road_model_m": 11.490687767038253
+    },
+    {
+      "candidate_group": "mixed",
+      "solver": {
+        "selected_indices": [
+          115,
+          148,
+          165,
+          269,
+          287,
+          331,
+          349,
+          373,
+          387,
+          393
+        ],
+        "population_distance_reduction_person_m": 53095710.76971828,
+        "elderly_distance_reduction_person_m": 0.0,
+        "population_weighted_mean_m": 619.5817777695356,
+        "elderly_weighted_mean_m": null,
+        "optimal": true,
+        "solver_status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "mip_gap": 0.0
+      },
+      "straight_selected_ids": [
+        "SC_0119",
+        "SC_0153",
+        "SC_0170",
+        "SC_0277",
+        "SC_0296",
+        "SC_0341",
+        "CV_MA010120220805720486",
+        "CV_MA010120220813301863",
+        "CV_MA010120220805109112",
+        "CV_MA010120220810332614"
+      ],
+      "road_selected_ids": [
+        "SC_0017",
+        "SC_0107",
+        "SC_0152",
+        "SC_0170",
+        "SC_0277",
+        "CV_MA010120220813301863",
+        "CV_MA010120220805109112",
+        "CV_MA010120220810332614",
+        "CV_MA0101202307A0054349",
+        "CV_MA0101202411A0093680"
+      ],
+      "common_selected": 5,
+      "actual_road_evaluation": {
+        "before": {
+          "population": 132709.0,
+          "mean_m": 1437.8972187114482,
+          "p90_m": 3980.3475510444623,
+          "within_distance_percent": {
+            "200": 4.827856437769857,
+            "350": 18.017617493915257,
+            "500": 31.48618405684618,
+            "1000": 65.66321801837103
+          }
+        },
+        "after": {
+          "population": 132709.0,
+          "mean_m": 965.0376447928381,
+          "p90_m": 2299.1412649857675,
+          "within_distance_percent": {
+            "200": 8.748464685891689,
+            "350": 26.546051887965397,
+            "500": 44.57647936462486,
+            "1000": 78.24412812996857
+          }
+        }
+      },
+      "road_optimum_mean_m": 945.0117429212332,
+      "advantage_of_road_model_m": 20.0259018716049
+    }
+  ],
+  "validation": {
+    "population_optimization_executed": true,
+    "base_models": 12,
+    "all_base_optimal": true,
+    "all_base_gap_zero": true,
+    "same_population_all_plans": true,
+    "existing_network_preserved": true,
+    "example_routes_match_matrix": true
+  },
+  "note": "공개 인구 가중치·도로 최단경로 추정. 실제 이용량 및 현장 참여 미확인."
+}

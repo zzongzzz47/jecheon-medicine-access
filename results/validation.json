@@ -1,0 +1,9 @@
+{
+  "population_optimization_executed": true,
+  "base_models": 12,
+  "all_base_optimal": true,
+  "all_base_gap_zero": true,
+  "same_population_all_plans": true,
+  "existing_network_preserved": true,
+  "example_routes_match_matrix": true
+}

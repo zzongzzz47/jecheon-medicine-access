@@ -1,0 +1,75 @@
+{
+  "statistics_year": 2024,
+  "boundary": "2025_2Q",
+  "inputs": [
+    {
+      "file": "sgis_jecheon_population_2024.zip",
+      "sha256": "b16598365b7ffd4d0f970a091dfabd30a434c8e3788adf3259c176aa574221d9"
+    },
+    {
+      "file": "bnd_dong_33030_2025_2Q.zip",
+      "sha256": "d5b73226a427d6ff74e04ab254de27b4ac7751a471b0f76b0c77603b3e60fef8"
+    },
+    {
+      "file": "bnd_oa_33030_2025_2Q.zip",
+      "sha256": "6e4a8dbc03e150d0dd70a8937212c5a3fa5dc6ffd2eeddb3010112440c1a6df8"
+    },
+    {
+      "file": "grid_라바.zip",
+      "sha256": "b1e8b02771cc2ee648eb3579a5c622975f6167f57360494d45372a586f2d585e"
+    },
+    {
+      "file": "grid_라사.zip",
+      "sha256": "00dbfaef193ac0bd61086abca0be3710e9d96474727c791bb077ec449f73159b"
+    }
+  ],
+  "administrative_names": [
+    "봉양읍",
+    "금성면",
+    "청풍면",
+    "수산면",
+    "덕산면",
+    "한수면",
+    "백운면",
+    "송학면",
+    "교동",
+    "용두동",
+    "청전동",
+    "화산동",
+    "남현동",
+    "영서동",
+    "신백동",
+    "의림지동",
+    "중앙동"
+  ],
+  "grids": {
+    "100": {
+      "cells": 88186,
+      "published_cells": 7065,
+      "missing_cells": 81121,
+      "released_population": 139895.0,
+      "boundary_rule": "격자 중심점이 제천시 읍면동 내부인 격자",
+      "missing_rule": "미공개·누락 값을 0명으로 대체하지 않음"
+    },
+    "500": {
+      "cells": 3514,
+      "published_cells": 1507,
+      "missing_cells": 2007,
+      "released_population": 131868.0,
+      "boundary_rule": "격자 중심점이 제천시 읍면동 내부인 격자",
+      "missing_rule": "미공개·누락 값을 0명으로 대체하지 않음"
+    }
+  },
+  "elderly": {
+    "census_areas": 284,
+    "total_population": 130733.0,
+    "lower_sum": 34489.0,
+    "upper_sum": 35328.0,
+    "exact_age_count_areas": 148,
+    "age_rule": "65세 이상 8개 연령구간. 미공개 구간 0~4명, 총인구·나머지 연령으로 범위 축소",
+    "interior_point_file": "elderly_interior.json",
+    "settlement_point_file": "elderly_population_medoid.json",
+    "no_published_grid_fallback": 21,
+    "location_note": "집계구별 고령인구를 한 대표점에 두는 근사. 100m 격자에 고령인구를 배분하지 않음"
+  }
+}
